@@ -14,5 +14,6 @@ VALUES (NULL, '$text', CURRENT_TIMESTAMP, '$done', '$id_coder', '$id_teacher')";
 
 $execute = mysqli_query($conexion, $query);
 
+$conexion->close();
 
 ?>
