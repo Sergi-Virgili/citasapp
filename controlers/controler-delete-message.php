@@ -2,7 +2,7 @@
 
 require_once '../conection.php';
 
-$id = 3;
+$id = 5;
 
 $query =  "DELETE FROM `messages` WHERE `messages`.`id` = $id";
 
