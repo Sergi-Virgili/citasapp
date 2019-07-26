@@ -1,0 +1,37 @@
+[
+    {
+      "id": 0,
+      "nameCoder": "nameCoder01",
+      "team": "team1",
+      "nameTeacher": "nameTeacher01",
+      "text": "Text in the first cite",
+      "allow": true
+    },
+    {
+      "id": 0,
+      "nameCoder": "nameCoder01",
+      "team": "team1",
+      "nameTeacher": "nameTeacher01",
+      "text": "Text in the first cite",
+      "allow": true
+    },
+    {
+      "id": 0,
+      "nameCoder": "nameCoder01",
+      "team": "team1",
+      "nameTeacher": "nameTeacher01",
+      "text": "Text in the first cite",
+      "allow": true
+    },
+    {
+      "id": 0,
+      "nameCoder": "hola caragola",
+      "team": "team1",
+      "nameTeacher": "nameTeacher01",
+      "text": "Text in the first cite",
+      "allow": true
+    }
+    
+    
+  ]
+  
