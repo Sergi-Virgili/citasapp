@@ -2,9 +2,9 @@
 
 require_once '../conection.php';
 
-$id = 2;
+$id = 3;
 
-$query =  "DELETE FROM `messages` WHERE `messages`.`id` = 2";
+$query =  "DELETE FROM `messages` WHERE `messages`.`id` = $id";
 
 $execute = mysqli_query( $conexion, $query );
 
