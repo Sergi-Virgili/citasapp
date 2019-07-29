@@ -14,8 +14,9 @@ echo '
         <section id = "loginSection">
             <input id = "loginName" required type = "text" placeholder = "name">
             <input id = "loginPassword" required type = "password" placeholder = "password">
-            <button id = "logiButton">Login</button>
+            <button id = "logiButton" onClick="login()">Login</button>
         </section>
+        <p id="userName"></p>
 		<h2>List Messages</h2>
 		<ul id="messagesList"><ul>
 
@@ -31,7 +32,11 @@ echo '
         <input id = "sendText" type="text-area">
         <button id = "sendButton">Send</button>
     </section>
-
+    
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
     <script src="scripts.js"></script>
 </body>
 </html>

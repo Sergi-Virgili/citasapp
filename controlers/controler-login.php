@@ -3,8 +3,10 @@
 require_once "../conection.php";
 
 
+$userName = $_POST['userName'];
 
-$query = "SELECT * FROM coders WHERE `name` = 'coder3'";
+
+$query = "SELECT * FROM coders WHERE `name` = '$userName'";
 
 $resultado = mysqli_query( $conexion, $query );
 
@@ -18,7 +20,7 @@ while ($row = mysqli_fetch_array( $resultado )){
       
     );
 };
-$jsonString = json_encode($json);
-echo $jsonString;
+ $jsonString = json_encode($json);
+ echo $jsonString;
 
 ?>
