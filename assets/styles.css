@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/MaterialIcons-Regular.eot"); /* For IE6-8 */
+  src: local("Material Icons"), local("MaterialIcons-Regular"),
+    url("./fonts/MaterialIcons-Regular.woff2") format("woff2"),
+    url("./fonts/MaterialIcons-Regular.woff") format("woff"),
+    url("./fonts/MaterialIcons-Regular.ttf") format("truetype");
+}
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+.container {
+  font-family: "Roboto";
+  min-height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  main {
+    grid-area: 1 / 2 / 6 / 3;
+  }
+  title {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  essagecards {
+    grid-area: 1 / 1 / 6 / 4;
+  }
+  sendSection {
+    grid-area: 1 / 1 / 6 / 4;
+    display: grid;
+    align-items: center;
+  }
+  loginform {
+    grid-area: 1 / 1 / 6 / 4;
+    display: grid;
+    align-items: center;
+  }
+}
+
+.card {
+  padding: 40px;
+  background: #fff;
+  max-width: 360px;
+  border-radius: 20px;
+  margin: 60px auto;
+  box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+}
+
+
+nomessages {
+
+
+}
+
+.messagecards {
+  list-style: none;
+  margin: 2em;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-row: repeat(auto-fill,minmax(200px, 1fr));
+}
+.messagecards ul {
+  border: 1px solid #ffe066;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+}
+    
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+/* Rules for sizing the icon. */
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+.material-icons.md-36 {
+  font-size: 36px;
+}
+.material-icons.md-48 {
+  font-size: 48px;
+}
